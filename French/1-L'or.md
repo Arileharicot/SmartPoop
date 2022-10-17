@@ -72,7 +72,7 @@ C'est avec ces réflexions en tête que Katia se dirige vers les toilettes pour 
 
 ### Eurêka
 
-Assise sur la cuvette, Katia lève tout à coup la tête. Son visage abattu se transforme tout à coup en un sourire radieux. À l'instar d'Archimède[^archimede], Katia sort des toilettes et se lance alors dans une tirade qui changera profondément son destin, et celui de toute l'humanité.
+Assise sur la cuvette, Katia lève tout à coup la tête. Son visage abattu se transforme soudainement en un sourire radieux. À l'instar d'Archimède[^archimede], Katia sort des toilettes et se lance dans une tirade qui changera profondément son destin, et celui de toute l'humanité.
 
 [^archimede]: Selon la légende, pour déterminer si une couronne était vraiment en or, Archimède eut l'idée de mesurer son volume, en mesurant la quantité d'eau déplacée dans une baignoire pleine lorsque la couronne était déposée dans la baignoire.
 En combinant cette mesure à la mesure de la masse de la couronne, Archimède pouvait alors estimer si la couronne avait la densité d'une couronne en or.
