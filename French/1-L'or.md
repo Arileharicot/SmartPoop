@@ -96,7 +96,7 @@ Dans les jours qui suivent, Katia et Marc passent leur temps à discuter de ce p
 
 C'est ainsi qu'est conçu petit à petit « SmartPoop », destiné à être une application de collecte d'échantillons photographiques de matière fécale et d'analyse automatisée de ces images à l'aide d'algorithmes de machine learning. Pendant les mois qui suivent, Katia écrit sa thèse de doctorat le jour, et programme SmartPoop jusque tard dans la nuit.
 
-Pendant ce temps, Marc s'informe sur la coprologie. Il télécharge des bases de données publiques d'excréments, et prend le soin de vérifier leurs annotations[^annotations]. Certains excréments sont des petites boules solides ; une nette indication de constipation. D'autres sont une bouillie presque liquide ; une bonne grosse diarrhée. Certains étrons ont une forme parfaitement ondulée ; un signe de très bonne santé intestinale[^etrons] ! La couleur donne aussi des informations sur le fonctionnement du foie ou la présence de sang.
+Pendant ce temps, Marc s'informe sur la coprologie. Il télécharge des bases de données publiques d'excréments, et prend soin de vérifier leurs annotations[^annotations]. Certains excréments sont des petites boules solides ; une nette indication de constipation. D'autres sont une bouillie presque liquide ; une bonne grosse diarrhée. Certains étrons ont une forme parfaitement ondulée ; un signe de très bonne santé intestinale[^etrons] ! La couleur donne aussi des informations sur le fonctionnement du foie ou la présence de sang.
 
 [^annotations]: L'annotation (ou *étiquetage*, *label* en anglais) des données est une phase critique de la construction des bases de données d'entraînement des algorithmes d'apprentissage. Elle consiste à prendre des données brutes (comme des images), et à annoter l'image avec des informations pertinentes, comme la présence ou l'absence de chats, ou comme l'état de santé de la personne qui a produit les excréments photographiés.
 
@@ -109,7 +109,7 @@ Pendant ce temps, Marc s'informe sur la coprologie. Il télécharge des bases de
 
 > Je vois... et du coup quand le foie ne fonctionne pas on devient marron ?
 
-> Presque. Jaune plutôt. C'est ce qu'on appelle l'ictère. Ou « jaunisse » si tu préfères, et les selles deviennent blanchâtres. Mais vois-tu…
+> Presque. Jaune plutôt. C'est ce qu'on appelle l'ictère. Ou « jaunisse » si tu préfères, et les selles deviennent blanchâtres. Mais, vois-tu…
 
 Katia n'écoutait déjà plus, réfléchissant au type d'analyse colorimétrique qu'elle pourrait intégrer à leurs algorithmes. « SmartPoop, ça va être trop cool[^cool] », se dit-elle intérieurement.
 
@@ -123,7 +123,7 @@ En mars 2019, Katia défend sa thèse. Une semaine plus tard, l'application Smar
 
 > J'ai passé des soirées bien chiantes pendant mes années de médecine, à voir des trucs peu ragoûtants…  mais celles-là étaient presque les pires, dira plus tard Marc.
 
-L'application SmartPoop dispose aussi de fonctionnalités d'apprentissage[^apprentissage-supervise]. En particulier, elle apprend ainsi progressivement des données collectées, quotidiennement étiquetées par Marc, et généralise ainsi les annotations de Marc pour prédire les risques de constipation ou de diarrhées chez les utilisateurs à partir d'images que Marc n'a pas eu le temps de visionner[^mise-a-l-echelle].
+L'application SmartPoop dispose aussi de fonctionnalités d'apprentissage[^apprentissage-supervise]. En particulier, elle apprend progressivement des données collectées, quotidiennement étiquetées par Marc, et généralise ainsi les annotations de Marc pour prédire les risques de constipation ou de diarrhée chez les utilisateurs à partir d'images que Marc n'a pas eu le temps de visionner[^mise-a-l-echelle].
 
 [^apprentissage-supervise]: La forme la plus développée de machine learning est ce qu'on appelle *l'apprentissage supervisé*. Il s'agit du problème de deviner des propriétés (appelées *étiquettes*) de données brutes comme des images. Typiquement, les images avec un chat peuvent être étiquetées avec l'étiquette « chat ». Dans le cas de SmartPoop, les images de constipation seront étiquetées « constipation ». L'algorithme d'apprentissage va alors chercher à identifier des caractéristiques que les images « constipation » ont, et que les images sans constipation n'ont pas. Si l'algorithme est un succès, il exploitera alors ces caractéristiques pour ensuite généraliser l'étiquetage « constipation » à des images non-étiquetées qui possèdent les caractéristiques des images « constipation ».  
 Une grande partie de la conception des algorithmes de machine learning par apprentissage supervisé se joue alors dans l'annotation des données. En fait, ce travail est si laborieux que les entreprises du web profitent souvent des utilisateurs de leurs plateformes pour effectuer ce travail à leur place, typiquement via des « CAPTCHA » qui permettent aussi de vérifier que l'utilisateur est humain.
@@ -132,7 +132,7 @@ Une grande partie de la conception des algorithmes de machine learning par appre
 Par exemple, grâce aux nouvelles technologies de l'information, l'association GiveDirectly permet à n'importe qui de donner directement de l'argent aux personnes démunies dans les pays défavorisés, sans passer par des intermédiaires qui pourraient garder l'argent pour eux-mêmes et avec quasiment aucun coût intermédiaire.  
 [**Web.** GiveDirectly.](https://www.givedirectly.org/)
 
-Katia passe alors tout son temps à améliorer SmartPoop. Elle développe l'application la nuit et en fait la promotion le jour. Elle intervient, en particulier, dans les instituts de recherche, dans les hôpitaux et dans les établissements d'hébergement pour personnes âgées dépendantes, mais aussi dans les réseaux d'entrepreneurs comme Station F à Paris. Son TEDx à la London School of Economics lui vaut une ovation d'un public conquis par l'opportunité sanitaire.
+Katia passe alors tout son temps à améliorer SmartPoop. Elle développe l'application la nuit et en fait la promotion le jour. Elle intervient, en particulier, dans les instituts de recherche, dans les hôpitaux et dans les établissements d'hébergement pour personnes âgées dépendantes, mais aussi dans les réseaux d'entrepreneurs comme la Station F à Paris. Son TEDx à la London School of Economics lui vaut une ovation d'un public conquis par l'opportunité sanitaire.
 
 Cependant, après des mois de promotion, SmartPoop ne décolle pas. Si l'application est téléchargée 1587 fois, elle n'est utilisée quotidiennement que par 75 utilisateurs[^retention] (dont une vingtaine parmi les proches de Katia et Marc). En juillet 2019, quatre mois après la mise en ligne de l'application, Katia se rend à l'évidence : SmartPoop est un échec.
 
