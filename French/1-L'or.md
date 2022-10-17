@@ -62,7 +62,7 @@ Malheureusement, la simple collecte de données est une tâche laborieuse, déli
 En 2015, Theranos est évalué à 9 milliards de dollars.
 En 2018, Theranos est poursuivi pour « fraude massive ».
 La technologie de Theranos supposément révolutionnaire n'a en fait jamais fonctionné.
-Les employés de Theranos semble avoir exploité en cachette des techniques classiques d'analyse sanguine, dont la fiabilité était en fait discutable.  
+Les employés de Theranos semblent avoir exploité en cachette des techniques classiques d'analyse sanguine, dont la fiabilité était en fait discutable.  
 [**Vidéo.**  Elizabeth Holmes - la menteuse devenue milliardaire. La chaîne de P.A.U.L. (2020).](https://www.youtube.com/watch?v=6kqCylsYtJM)  
 [**Vidéo.**  Elizabeth Holmes exposed: the $9 billion medical ‘miracle' that never existed. 60 Minutes Australia (2021).](https://www.youtube.com/watch?v=BgNfrDXr7uA)
 
